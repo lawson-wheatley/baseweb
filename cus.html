@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/gh/lawson-wheatley/baseweb@main/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+  	<!-- body code goes here -->
+    <div class="card shadow dec borderr col-lg-10 col-sm-10 col-md-10 height verticalalign overflow-scroll">
+        <div class="class-container borderr card shadow pads margbottom">
+        <div class="mb-2">Intro</div>
+        <div class = "texsel">
+            <div class="selector col-3">
+            <select class="form-select col-12 borderr" id="select-intro" aria-label="Default select example">
+            </select></div>
+            <textarea class="text col-7 borderr ta" id="text-intro"></textarea>
+            <div class="col-2 selector" id = "wpm-intro"></div>
+          </div>
+         
+        </div>
+        <div class="class-container borderr card shadow pads margbottom">
+        <div class="mb-2">Relaxation</div>
+        <div class = "texsel">
+            <div class="selector col-3">
+            <select class="form-select col-12 borderr" id="select-rel" aria-label="Default select example">
+            </select></div>
+            <textarea class="text col-7 borderr ta" id="text-rel"></textarea>
+            <div class="col-2 selector" id = "wpm-rel"></div>
+          </div>
+         
+        </div>
+        <div class="class-container borderr card shadow pads margbottom">
+        <div class="mb-2">Set the Scene</div>
+        <div class = "texsel">
+            <div class="selector col-3">
+            <select class="form-select col-12 borderr" id="select-scene" aria-label="Default select example">
+            </select></div>
+            <textarea class="text col-7 borderr ta" id="text-scene"></textarea>
+            <div class="col-2 selector" id = "wpm-scene"></div>
+          </div>
+         
+        </div>
+        <div class="class-container borderr card shadow pads margbottom">
+        <div class="mb-2">Deepener</div>
+        <div class = "texsel">
+            <div class="selector col-3">
+            <select class="form-select col-12 borderr" id="select-deep" aria-label="Default select example">
+            </select></div>
+            <textarea class="text col-7 borderr ta" id="text-deep"></textarea>
+            <div class="col-2 selector" id = "wpm-deep"></div>
+          </div>
+         
+        </div>
+        <div class="class-container borderr card shadow pads margbottom">
+        <div class="mb-2">Direct Suggestions</div>
+        <div class = "texsel">
+            <textarea class="text col-10 borderr ta" id="text-sugg">Every day you now....&#10;Each you you now get better and better at...&#10;You now...&#10;Every morning you now...&#10;Activation Suggestion: Each time X happens you now Y&#10;Behaviour Suggestion: You now easily...&#10;Consequence Suggestion: Anytime X happens you now feel Y&#10;Doing X is now something you find easy and fun to do...</textarea>
+            <div class="col-2 selector" id="wpm-sugg"></div>
+          </div>
+        </div>
+        <div class="class-container borderr card shadow pads margbottom">
+        <div class="mb-2">Future Pace</div>
+        <div class = "texsel">
+            <textarea class="text col-10 borderr ta" id="text-future">What location will your client be in?&#10;What will they see/hear/feel in this moment, before the new behaviour?&#10;Who will they be there with or will they be alone?&#10;What is the new, desirable behaviour the client wants?&#10;What triggers the client to initiate this desirable behaviour?&#10;Is there a quality in how the client performs this new behaviour?&#10;How does the client feel now, doing this new behaviour?&#10;What are the benefits/results of having done this new behaviour?&#10;</textarea>
+            <div class="col-2 selector" id="wpm-future"></div>
+          </div>
+        </div>
+        <div class="class-container borderr card shadow pads margbottom">
+        <div class="mb-2">Count Out</div>
+        <div class = "texsel">
+            <textarea class="text col-10 borderr ta" id="text-count">1 - Start to notice the sensation in your hands and in your feet.&#10;2 - Start to notice the sounds in the room and the sounds outside&#10;3 - Take a nice, deep breath in&#10;4 - Stretching up and out&#10;And 5 - Open up your eyes, feeling wonder and refreshed.&#10;Welcome back.</textarea>
+            <div class="col-2 selector" id="wpm-count"></div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="save">Save</button>
+      </div>
+      
+      <div id="final" class="shadow dec col-lg-10 col-sm-10 col-md-10 verticalalign pad"><div id = "okk" class= "mar"></div></div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- Boostrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lawson-wheatley/baseweb@main/intro.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lawson-wheatley/baseweb@main/setter.js"></script>
+
+
+  </body>
+</html>
